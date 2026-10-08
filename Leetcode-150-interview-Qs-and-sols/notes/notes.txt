@@ -1,0 +1,90 @@
+| الحالة                | الحل                |
+| --------------------- | ------------------- |
+| Sorted array + pair   | Two Pointers        |
+| Unsorted array + pair | HashMap             |
+| Subarray متصل         | Sliding Window      |
+| أكبر / أصغر / أقرب    | Two Pointers غالبًا |
+
+
+📌 إمتى أستخدم Two Pointers؟
+
+✅ الـ Array مرتبة (Sorted)
+
+✅ السؤال عن عنصرين / زوج عناصر
+
+Array ممكن نرتّبه
+
+عايز triplets / pairs
+
+شرط sum
+
+منع duplicates
+
+
+
+✅ فيه شرط زي:
+
+sum
+
+difference
+
+comparison
+
+✅ مطلوب:
+
+O(1) extra space
+
+حل أسرع من brute force
+
+✅ ينفع تتحرك من:
+
+أول array
+
+وآخر array
+
+
+#-----------------------------------------------------------
+🔑 Keywords / Phrases That Hint at Hash Map
+
+Frequency / Count / Number of occurrences
+
+e.g., “count the number of times each element appears”
+
+→ Hash Map: key = element, value = count
+
+Check existence / Lookup / Presence
+
+e.g., “check if a value exists in the array”
+
+→ Hash Map for O(1) lookup
+
+Pairs / Two-sum / Complement
+
+e.g., “find all pairs whose sum = target”
+
+→ Hash Map: store needed complement as key
+
+Unique / Distinct / Remove duplicates
+
+e.g., “return all unique elements”
+
+→ Hash Map helps store keys uniquely
+
+Mapping / Association / Relationship
+
+e.g., “map students to grades” or “map words to counts”
+
+→ Hash Map = natural choice
+
+Sliding window with frequency or count tracking
+
+e.g., “longest substring with at most K distinct characters”
+
+→ Hash Map tracks counts inside the window
+
+Index / Position tracking
+
+e.g., “find first/last occurrence of a value”
+
+→ Hash Map: key = value, value = index
+
